@@ -185,6 +185,7 @@ color: #fff;
 	margin:10px 0 0px;
 	padding:0;
 	list-style:none;
+	z-index: 800;
 }
 .main-nav li{
 	display:inline;
