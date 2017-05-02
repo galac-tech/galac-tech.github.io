@@ -170,11 +170,11 @@ input {
 }
 .btn-invert {
     padding: 20px;
-    -webkit-transition: color 250ms padding 250ms linear;
-	-moz-transition: color 250ms padding 250ms linear;
-	-o-transition: color 250ms padding 250ms linear;
-	-ms-transition: color 250ms padding 250ms linear;
-	transition: color 250ms, padding 250ms linear;
+    -webkit-transition: color 250ms linear;
+	-moz-transition: color 250ms linear;
+	-o-transition: color 250ms linear;
+	-ms-transition: color 250ms linear;
+	transition: color 250ms linear;
     background: white;
     border: 3px solid black;
     border-radius: 25px;
@@ -182,11 +182,15 @@ input {
     outline:none
 }
 .btn-invert:hover {
-	padding: 23px;
+	color: white;
+    background-color: black;
 	/*color: gray;*/
 	/*animation-name: pulse;*/
 	/*background: black;
 	color: white;*/
+}
+.btn-switch:focus {
+    outline: none;
 }
 
 
