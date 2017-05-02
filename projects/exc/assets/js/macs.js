@@ -1,3 +1,7 @@
+function setup(){
+	$('#h').height(window.innerHeight+"px")
+}
+
 (function($) {
 	// Handles the social badges
 	$(".social-badge").on("mouseover", function(e){
@@ -10,5 +14,11 @@
 		$(elm).removeClass("ion-social-"+cls).addClass("ion-social-"+cls+"-outline")
 	})
 	//
+	// Handles the first section of the web page
+	$(window).on('resize', function(){ 
+    	$('#h').height(window.innerHeight+"px")          
+	});
+	//
+	setup()
 		
 })(jQuery);
