@@ -236,7 +236,7 @@ input {
 	padding-top: 100px;
 }
 
-#h .logo-img {
+#h #logo-img {
 	/*background: url(../img/eco.png) no-repeat center top;*/
 	-webkit-filter: invert(100%);
 	-moz-filter: invert(100%);
