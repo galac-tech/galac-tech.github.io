@@ -46,6 +46,10 @@ p {
 	margin-top: 10px; 
 }
 
+button:focus {
+	outline:0;
+}
+
 html,
 body {
 	height: 100%;
@@ -164,6 +168,27 @@ input {
 	background: white;
 	color: #2f2f2f;
 }
+.btn-invert {
+    padding: 20px;
+    -webkit-transition: color 250ms padding 250ms linear;
+	-moz-transition: color 250ms padding 250ms linear;
+	-o-transition: color 250ms padding 250ms linear;
+	-ms-transition: color 250ms padding 250ms linear;
+	transition: color 250ms, padding 250ms linear;
+    background: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    text-transform: uppercase;
+    outline:none
+}
+.btn-invert:hover {
+	padding: 23px;
+	/*color: gray;*/
+	/*animation-name: pulse;*/
+	/*background: black;
+	color: white;*/
+}
+
 
 
 
